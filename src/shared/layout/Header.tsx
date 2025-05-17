@@ -17,7 +17,7 @@ import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import { usePathname, useRouter } from "next/navigation";
 import { useThemeToggle } from "@/providers/ThemeProvider";
-import Button from "../components/Button";
+import Button from "../components/Button/Button";
 
 export default function Header() {
   const theme = useTheme();

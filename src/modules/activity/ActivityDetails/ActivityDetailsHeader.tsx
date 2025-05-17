@@ -1,8 +1,8 @@
 "use client";
 import { Box, Typography } from "@mui/material";
 import { Activity } from "@/shared/domain/Activity";
-import Map from "@/shared/components/Map";
-import Button from "@/shared/components/Button";
+import Map from "@/shared/components/Map/Map";
+import Button from "@/shared/components/Button/Button";
 
 interface ActivityHeaderProps {
   activity: Activity;

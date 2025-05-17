@@ -18,7 +18,7 @@ import ChatIcon from "@mui/icons-material/Chat";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
 const ROUTES = [
-  { path: "/", label: "Meetings", icon: PeopleIcon },
+  { path: "/", label: "Activities", icon: PeopleIcon },
   { path: "/for-me", label: "For me", icon: PersonIcon },
   { path: "/discover", label: "Discover", icon: ExploreIcon },
   { path: "/chats", label: "Chats", icon: ChatIcon },

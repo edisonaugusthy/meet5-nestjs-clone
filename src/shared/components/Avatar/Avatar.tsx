@@ -40,7 +40,6 @@ export const Avatar = forwardRef<HTMLDivElement, AvatarProps>(
     return (
       <MuiAvatar
         ref={ref}
-        src={src}
         alt={alt}
         {...(displayName &&
           !src && {

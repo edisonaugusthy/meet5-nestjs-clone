@@ -66,7 +66,7 @@ const BASE_MOCK_ACTIVITIES: Activity[] = [
       {
         id: "101",
         name: "Markus H.",
-        avatarUrl: "/images/avatar-placeholders/avatar1.jpg",
+        avatarUrl: "/images/avatar-placeholders/avatar1.png",
         joined: true,
       },
       {
@@ -84,7 +84,7 @@ const BASE_MOCK_ACTIVITIES: Activity[] = [
       {
         id: "104",
         name: "Sophie L.",
-        avatarUrl: "/images/avatar-placeholders/avatar1.jpg",
+        avatarUrl: "/images/avatar-placeholders/avatar1.png",
         joined: true,
       },
       {
@@ -97,7 +97,7 @@ const BASE_MOCK_ACTIVITIES: Activity[] = [
     organizer: {
       id: "101",
       name: "Markus H.",
-      avatarUrl: "/images/avatar-placeholders/avatar1.jpg",
+      avatarUrl: "/images/avatar-placeholders/avatar1.png",
       joined: true,
     },
     description:

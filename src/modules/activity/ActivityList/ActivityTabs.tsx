@@ -64,7 +64,7 @@ const ActivityTabs = ({ activeTab, onTabChange }: ActivityTabsProps) => {
 
   return (
     <Box sx={{ width: "100%" }}>
-      <PageTitle variant="h4">Meetings for me -{activeTab}</PageTitle>
+      <PageTitle variant="h4">Activities for me </PageTitle>
       <StyledTabs
         value={getTabValue()}
         onChange={handleChange}

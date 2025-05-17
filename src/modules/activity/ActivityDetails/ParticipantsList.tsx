@@ -2,7 +2,7 @@
 import { Box, Typography } from "@mui/material";
 import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
 import { Activity } from "@/shared/domain/Activity";
-import Avatar from "@/shared/components/Avatar";
+import Avatar from "@/shared/components/Avatar/Avatar";
 
 interface ParticipantsHeaderProps {
   currentParticipants: number;

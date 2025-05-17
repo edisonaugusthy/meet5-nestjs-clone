@@ -18,7 +18,7 @@ import {
   formatLocation,
   formatParticipantCount,
 } from "@/shared/utils/formatters";
-import Avatar from "@/shared/components/Avatar";
+import Avatar from "@/shared/components/Avatar/Avatar";
 
 const StyledCard = styled(Card)(({ theme }) => ({
   marginBottom: theme.spacing(2),
