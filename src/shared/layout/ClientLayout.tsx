@@ -65,8 +65,6 @@ export default function ClientLayout({ children }: { children: ReactNode }) {
               <Navigation />
             </SidebarContainer>
           )}
-
-          {/*  content */}
           <MainContent>{children}</MainContent>
         </ContentWrapper>
 

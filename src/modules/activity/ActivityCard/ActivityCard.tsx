@@ -36,7 +36,10 @@ const ImageContainer = styled(Box)(({ theme }) => ({
   display: "flex",
   borderBottom: `1px solid ${theme.palette.divider}`,
   height: 120,
-  backgroundColor: theme.palette.action.hover,
+  backgroundColor:
+    theme.palette.mode === "light"
+      ? theme.palette.primary.main
+      : theme.palette.action.hover,
   position: "relative",
 }));
 
