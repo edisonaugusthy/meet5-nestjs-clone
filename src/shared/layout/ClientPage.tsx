@@ -1,5 +1,5 @@
 "use client";
-import ActivityList from "@/modules/activity/ActivityList/ActivityList";
+import ActivityList from "@/modules/activity/components/ActivityList/ActivityList";
 import { Suspense } from "react";
 
 const LoadingComponent = () => (

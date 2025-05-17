@@ -4,9 +4,9 @@ import { useParams } from "next/navigation";
 import { Box } from "@mui/material";
 import { Activity } from "@/shared/domain/Activity";
 import { getActivityById } from "@/lib/api/activities";
-import ActivityDetails from "@/modules/activity/ActivityDetails/ActivityDetails";
-import ActivityDetailsSkeleton from "@/modules/activity/ActivityDetails/ActivityDetailsSkeleton";
-import ActivityDetailsError from "@/modules/activity/ActivityDetails/ActivityDetailsError";
+import ActivityDetails from "@/modules/activity/components/ActivityDetails/ActivityDetails";
+import ActivityDetailsSkeleton from "@/modules/activity/components/ActivityDetails/ActivityDetailsSkeleton";
+import ActivityDetailsError from "@/modules/activity/components/ActivityDetails/ActivityDetailsError";
 
 export default function ActivityDetailPage() {
   const params = useParams();

@@ -8,7 +8,7 @@ import ActivityCardSkeleton from "../ActivityCard/ActivityCardSkeleton";
 import ActivityTabs from "./ActivityTabs";
 import { Activity } from "@/shared/domain/Activity";
 import { TabType } from "@/shared/models/TabType";
-import { useActivities } from "@/hooks/useActivities";
+import { useActivities } from "@/modules/activity/hooks/useActivities";
 
 const ITEMS_PER_PAGE = 5;
 
