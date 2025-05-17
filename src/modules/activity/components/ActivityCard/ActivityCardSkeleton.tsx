@@ -53,25 +53,21 @@ const ActivityCardSkeleton = () => {
       </ImageSkeleton>
 
       <ContentSkeleton>
-        {/* Title */}
         <Box sx={{ display: "flex", justifyContent: "space-between", mb: 1 }}>
           <Skeleton variant="text" width="80%" height={28} />
           <Skeleton variant="circular" width={24} height={24} />
         </Box>
 
-        {/* Location */}
         <Box sx={{ display: "flex", alignItems: "center", gap: 1, mb: 1 }}>
           <Skeleton variant="circular" width={20} height={20} />
           <Skeleton variant="text" width="60%" height={20} />
         </Box>
 
-        {/* Date */}
         <Box sx={{ display: "flex", alignItems: "center", gap: 1, mb: 2 }}>
           <Skeleton variant="circular" width={20} height={20} />
           <Skeleton variant="text" width="70%" height={20} />
         </Box>
 
-        {/* Participant count */}
         <Skeleton
           variant="rounded"
           width={120}
