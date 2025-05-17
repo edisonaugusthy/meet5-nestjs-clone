@@ -49,6 +49,15 @@ The application uses mock data to simulate the API responses. In a production en
 - Virtual scrolling and on demand scrolling for performance optimization
 - Dark and light theming support
 
+## Features missed due to time constraints
+
+- Implementing domain classes instead of domain models to keep business logics isolated
+- Content Security Policy and other security features
+- Image Optimization and other SEO configurations
+- Multi language support(i8n)
+- Testcases
+- Ui polish
+
 ## SEO Considerations
 
 - Proper semantic HTML structure
